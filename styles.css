@@ -154,8 +154,8 @@ header h2 {
 
 nav {
     margin-bottom: 10px;
-   margin-top: -10%;
-   text-align: center;
+    margin-top: -10%;
+    text-align: center;
 }
 
 
@@ -317,6 +317,7 @@ textarea::placeholder {
     width: 50%;
     height: 13%;
     background-color: #007d7b;
+    text-transform: uppercase;
     color: #ffffff;
     margin-left: 25%;
     margin-right: 20%;
@@ -359,8 +360,8 @@ textarea::placeholder {
 
     nav {
         text-align: right;
-       margin: 1%;
-       margin-top: -3.5%;
+        margin: 1%;
+        margin-top: -3.5%;
     }
 
     html {
@@ -374,7 +375,7 @@ textarea::placeholder {
 
     .galleryGrid {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     img {
