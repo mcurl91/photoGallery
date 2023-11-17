@@ -146,6 +146,7 @@ header h1 {
     background-color: #ffffff;
     color: #007d7b;
     text-align: center;
+   
 }
 
 header h2 {
@@ -166,6 +167,7 @@ nav li {
 
 nav a {
     font-size: 1.5em;
+    text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
 }
