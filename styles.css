@@ -145,7 +145,7 @@ header h1 {
     background-color: #ffffff;
     color: #007d7b;
     text-align: center;
-   
+
 }
 
 header h2 {
@@ -171,8 +171,24 @@ nav a {
     color: #ffffff;
 }
 
+[href="#top"] {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: #ffffff;
+    color: #000000;
+    border-style: solid;
+    border-color: #000000;
+    box-shadow: 0 0 0 1px black;
+    opacity: 80%;
+    z-index: 2;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+}
+
 nav a:hover {
-  color: #007d7b;
+    color: #007d7b;
 }
 
 
@@ -332,7 +348,7 @@ textarea::placeholder {
 }
 
 .submit:hover {
-    background-color:purple;
+    background-color: purple;
 }
 
 @media screen and (min-width:880px) {
