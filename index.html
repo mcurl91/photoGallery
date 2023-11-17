@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Melia Curl">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Photo Gallery</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1>TK Photography</h1>
+        </div>
+        <h2>Main Navigation</h2>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="about">
+            <h2>About</h2>
+            <p>Hello!
+                I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape
+                photography
+                is my
+                speciality and it's taken me all over the world.
+            </p>
+        </section>
+
+        <section class="gallery">
+
+            <h2>Gallery</h2>
+            <p>Here are some highlights of my work. The locations and year are in the caption. </p>
+
+            <div class="galleryGrid">
+                <figure>
+                    <img src="images/Chile.png" alt="A Chilean beach">
+                    <figcaption>Chile, 2001</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Guatemala.png"
+                        alt="A beautiful lake in Guatemala surrounded by flowers and mountains">
+                    <figcaption>Guatemala, 1997</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Hawaii.png" alt="A misty Hawaiian beach surrounded by mountains">
+                    <figcaption>Hawaii, 2010</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Iran.png" alt="Shrubs on flat field in Iran">
+                    <figcaption>Iran, 1999</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Ireland.png" alt="Green hills in Ireland">
+                    <figcaption>Ireland, 2012</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Italy.png" alt="A crystal clear lake surrounded by mountains in Italy">
+                    <figcaption>Italy, 2015</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Moab-Desert.png" alt="Mountains in Moab Desert">
+                    <figcaption>Moab Desert, 2020</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Rocky-Mountains.png" alt="Water splashing on the Rocky Mountains">
+                    <figcaption>Rocky Mountains, 2009</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Switzerland.png" alt="Snowy hills in Switzerland">
+                    <figcaption>Switzerland, 2014</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/UK.png" alt="Hills in UK">
+                    <figcaption>UK, 2005</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/USA.png" alt="Flat fields with flowers and grass in USA">
+                    <figcaption>USA, 2021</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Wyoming.png" alt="Wyoming Lake with trees and mountains in background">
+                    <figcaption>Wyoming, 2021</figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Please fill out this form and I'll connect with you soon.</p>
+
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your full name">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address">
+                <label for="text">Message</label>
+
+                <textarea id="text" name="text" placeholder="What can I help you with?"></textarea>
+
+                <input type="submit" value="Submit" class="submit">
+            </form>
+        </section>
+
+    </main>
+
+    <footer><small>Copyright 2021 TK Photography</small></footer>
+
+</body>
+
+</html>
