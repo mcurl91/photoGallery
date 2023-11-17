@@ -141,7 +141,6 @@ body {
     width: 485px;
 }
 
-
 header h1 {
     background-color: #ffffff;
     color: #007d7b;
@@ -170,6 +169,10 @@ nav a {
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
+}
+
+nav a:hover {
+  color: #007d7b;
 }
 
 
@@ -328,12 +331,15 @@ textarea::placeholder {
 
 }
 
+.submit:hover {
+    background-color:purple;
+}
+
 @media screen and (min-width:880px) {
 
     header h1 {
         text-align: left;
     }
-
 
     nav {
         margin: 1%;
@@ -355,7 +361,6 @@ textarea::placeholder {
 
 @media screen and (min-width:1300px) {
 
-
     header h1 {
         text-align: left;
     }
@@ -364,10 +369,6 @@ textarea::placeholder {
         text-align: right;
         margin: 1%;
         margin-top: -3.5%;
-    }
-
-    html {
-        margin: 0 auto;
     }
 
     body {
